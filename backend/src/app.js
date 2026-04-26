@@ -22,3 +22,8 @@ app.use('/api/todos', todoRoute)
 
 app.use(notFound)
 app.use(errorHandler)
+
+
+
+
+export default app

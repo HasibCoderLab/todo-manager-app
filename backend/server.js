@@ -8,3 +8,4 @@ connectDB().then(() => app.listen(port, () => {
 })).catch(error => {
   console.error('failed server', error)
 })
+
